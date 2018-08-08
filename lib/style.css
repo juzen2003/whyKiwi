@@ -91,7 +91,7 @@ button {
 }
 
 .educational-button, .fun-button, .alternative-button {
-  transform: rotate(-2deg);
+  transform: rotate(2deg);
 }
 
 button span {
@@ -99,7 +99,7 @@ button span {
   display: block;
 }
 
-img {
+button img {
   object-fit: none;
   padding-top: 5px;
   transform: scale(0.6);
@@ -132,12 +132,50 @@ img {
 
 .fun {
   object-position: -315px -0px;
-height: 35px;
-width: 55px;
+  height: 35px;
+  width: 55px;
 }
 
 .alternative {
   object-position: -250px 0px;
   height: 41px;
   width: 68px;
+}
+
+/* article {
+  display: flex;
+} */
+
+.text-content {
+  display: flex;
+  background: #ffffff;
+  margin: 20px 100px;
+}
+
+.text-content section {
+  flex: 1;
+  position: relative;
+}
+
+.text-content section img {
+  position: absolute;
+  top: -77px;
+  left: -23px;
+  transform: scale(0.7) rotate(-10deg);
+}
+
+.text-field {
+  flex: 2;
+  font-size: 24px;
+  font-family: 'Museo Sans',Arial,Helvetica,Verdana,sans-serif;
+  font-style: italic;
+  color: #777777;
+  line-height: 1.5;
+  padding: 0 30px;
+}
+
+.text-field span {
+  font-size: 16px;
+  display: block;
+  text-align: left;
 }
