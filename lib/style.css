@@ -45,6 +45,7 @@
   box-sizing: border-box;
 }
 
+/* title of the module Why KiwiCo? */
 .title {
   margin: 28px auto;
   font-size: 28px;
@@ -57,6 +58,7 @@
   font-weight: 700;
 }
 
+/* 6 buttons */
 .menu {
   padding: 20px 20px 20px 0;
   border-top: dotted 2px rgba(0, 0, 0, .2);
@@ -64,25 +66,38 @@
   /* position: relative; */
 }
 
-/* .menu li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  position: absolute;
-  top: 0;
-} */
 button {
   font-size: 24px;
   font-family: 'funFont';
   color: #21B5BF;
+  border: #BEC6C7;
+  border-radius: 5px;
+  box-shadow: 2px 2px #BEC6C7;
+  margin: 2px 2px;
+  transform: rotate(-2deg);
+}
+
+span {
+  padding: 0 20px;
+  display: block;
+}
+
+img {
+  object-fit: none;
+  padding-top: 5px;
+  transform: scale(0.6);
+  margin: 0 auto;
+  display: block;
 }
 
 .convenient {
-  /* background: url(http://icdn.kiwicrate.com/site/home/why-kiwico-sprite.png) 0 0;
-  height: 45px;
-  width: 70px; */
-  object-fit: none;
   object-position: 0 0;
-  height: 45px;
+  height: 35px;
   width: 65px;
+}
+
+.sparks-creativity {
+  object-position: -67px -5px;
+  height: 35px;
+  width: 55px;
 }
