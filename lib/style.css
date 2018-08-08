@@ -83,7 +83,12 @@ button {
   border-radius: 5px;
   box-shadow: 2px 2px #BEC6C7;
   margin: 2px 2px;
-  /* transform: rotate(-2deg); */
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #21B5BF;
 }
 
 .convenient-button, .sparks-creativity-button, .family-time-button {
@@ -99,6 +104,10 @@ button span {
   display: block;
 }
 
+button:hover span {
+  color: #ffffff;
+}
+
 button img {
   object-fit: none;
   padding-top: 5px;
@@ -109,6 +118,12 @@ button img {
 
 .convenient {
   object-position: 0 0;
+  height: 35px;
+  width: 65px;
+}
+
+button:hover .convenient {
+  object-position: 0 -45px;
   height: 35px;
   width: 65px;
 }
@@ -142,10 +157,7 @@ button img {
   width: 68px;
 }
 
-/* article {
-  display: flex;
-} */
-
+/* text area for each button */
 .text-content {
   display: flex;
   background: #ffffff;
