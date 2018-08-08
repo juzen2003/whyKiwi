@@ -25,7 +25,7 @@
     font-weight: 700;
 }
 
-.why-section {
+#why-section {
   background: #EEF8F8;
   text-align: center;
   position: relative;
@@ -34,25 +34,25 @@
 }
 
 @media (min-width: 780px) {
-  .why-container {
+  #why-container {
       width: 960px;
   }
 }
 
 @media (min-width: 480px) {
-  .why-container {
+  #why-container {
       width: 960px;
   }
 }
 
-.why-container {
+#why-container {
   margin: 0 auto;
   padding: 0 10px;
   box-sizing: border-box;
 }
 
 /* title of the module Why KiwiCo? */
-.title {
+#title {
   margin: 28px auto;
   font-size: 28px;
   color: #747376;
@@ -60,12 +60,12 @@
   font-family: 'Museo Sans',Arial,Helvetica,Verdana,sans-serif;
 }
 
-.title > emp {
+#title em {
   font-weight: 700;
 }
 
 /* 6 buttons */
-.menu {
+#menu {
   padding: 20px 20px 20px 0;
   border-top: dotted 2px rgba(0, 0, 0, .2);
   border-width: 2px 0;
@@ -91,11 +91,11 @@ button:hover {
   background: #21B5BF;
 }
 
-.convenient-button, .sparks-creativity-button, .family-time-button {
+#convenient-button, #sparks-creativity-button, #family-time-button {
   transform: rotate(-2deg);
 }
 
-.educational-button, .fun-button, .alternative-button {
+#educational-button, #fun-button, #alternative-button {
   transform: rotate(2deg);
 }
 
@@ -116,67 +116,67 @@ button img {
   display: block;
 }
 
-.convenient {
+#convenient {
   object-position: 0 0;
   height: 35px;
   width: 65px;
 }
 
-button:hover .convenient {
+button:hover #convenient {
   object-position: 0 -45px;
   height: 35px;
   width: 65px;
 }
 
-.sparks-creativity {
+#sparks-creativity {
   object-position: -67px -5px;
   height: 35px;
   width: 55px;
 }
 
-.educational {
+#educational {
   object-position: -122px 0px;
   height: 37px;
   width: 55px;
 }
-.family-time {
+#family-time {
   object-position: -183px 0px;
   height: 35px;
   width: 67px;
 }
 
-.fun {
+#fun {
   object-position: -315px -0px;
   height: 35px;
   width: 55px;
 }
 
-.alternative {
+#alternative {
   object-position: -250px 0px;
   height: 41px;
   width: 68px;
 }
 
 /* text area for each button */
-.text-content {
+#text-content {
   display: flex;
   background: #ffffff;
   margin: 20px 100px;
 }
 
-.text-content section {
+#text-content section {
   flex: 1;
   position: relative;
 }
 
-.text-content section img {
+#text-content section img {
   position: absolute;
   top: -77px;
   left: -23px;
   transform: scale(0.7) rotate(-10deg);
 }
 
-.text-field {
+#text-field {
   flex: 2;
   font-size: 24px;
   font-family: 'Museo Sans',Arial,Helvetica,Verdana,sans-serif;
@@ -186,8 +186,12 @@ button:hover .convenient {
   padding: 0 30px;
 }
 
-.text-field span {
+#text-field span {
   font-size: 16px;
   display: block;
   text-align: left;
+}
+
+#text-field em {
+  font-weight: 700;
 }
