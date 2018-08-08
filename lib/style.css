@@ -1,1 +1,88 @@
+/* Add your styles here */
+/* font */
+@font-face {
+    font-family: "funFont";
+    src: url("fonts/mix-vielle-re.woff") format('woff');
+}
+@font-face {
+    font-family: "Museo Sans";
+    src: url("fonts/museosans-cond-300.woff") format('woff');
+}
+@font-face {
+    font-family: "Museo Sans";
+    src: url("fonts/museosans-cond-700.woff") format('woff');
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Museo Sans";
+    src: url("fonts/museosans-cond-italic-300.woff") format('woff');
+    font-style: italic;
+}
+@font-face {
+    font-family: "Museo Sans";
+    src: url("fonts/museosans-cond-italic-700.woff") format('woff');
+    font-style: italic;
+    font-weight: 700;
+}
 
+.why-section {
+  background: #EEF8F8;
+  text-align: center;
+  position: relative;
+  padding: 10px 0 40px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 480px) {
+  .why-container {
+      width: 960px;
+  }
+}
+
+.why-container {
+  margin: 0 auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.title {
+  margin: 28px auto;
+  font-size: 28px;
+  color: #747376;
+  text-align: center;
+  font-family: 'Museo Sans',Arial,Helvetica,Verdana,sans-serif;
+}
+
+.title > emp {
+  font-weight: 700;
+}
+
+.menu {
+  padding: 20px 20px 20px 0;
+  border-top: dotted 2px rgba(0, 0, 0, .2);
+  border-width: 2px 0;
+  /* position: relative; */
+}
+
+/* .menu li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+} */
+button {
+  font-size: 24px;
+  font-family: 'funFont';
+  color: #21B5BF;
+}
+
+.convenient {
+  /* background: url(http://icdn.kiwicrate.com/site/home/why-kiwico-sprite.png) 0 0;
+  height: 45px;
+  width: 70px; */
+  object-fit: none;
+  object-position: 0 0;
+  height: 45px;
+  width: 65px;
+}
