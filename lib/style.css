@@ -1,5 +1,5 @@
 /* Add your styles here */
-/* font */
+/* fonts */
 @font-face {
     font-family: "funFont";
     src: url("fonts/mix-vielle-re.woff") format('woff');
@@ -33,16 +33,27 @@
   box-sizing: border-box;
 }
 
-@media (min-width: 780px) {
-  #why-container {
-      width: 960px;
-  }
-}
-
 @media (min-width: 480px) {
   #why-container {
       width: 960px;
       height: 960px;
+  }
+  #text-content {
+    margin: 20px 100px;
+  }
+}
+
+/* for small screen display */
+@media (max-width: 480px) {
+  #menu {
+    flex-wrap: wrap;
+    width: 400px;
+  }
+  #img-holder {
+    display: none;
+  }
+  #text-content {
+    margin: 20px 20px;
   }
 }
 
@@ -73,8 +84,15 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+
   /* position: relative; */
 }
+
+/* #first-three-buttons, #last-three-buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+} */
 
 button {
   font-size: 24px;
@@ -189,11 +207,11 @@ button:hover #alternative, button:focus #alternative {
   width: 68px;
 }
 
-/* text area for each button */
+/* text area */
 #text-content {
   display: flex;
   background: #ffffff;
-  margin: 20px 100px;
+  /* margin: 20px 100px; */
 }
 
 #text-content section {
