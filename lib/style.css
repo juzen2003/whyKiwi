@@ -42,6 +42,7 @@
 @media (min-width: 480px) {
   #why-container {
       width: 960px;
+      height: 960px;
   }
 }
 
@@ -86,7 +87,7 @@ button {
   outline: none;
 }
 
-button:hover {
+button:hover, button:focus {
   cursor: pointer;
   background: #21B5BF;
 }
@@ -104,7 +105,7 @@ button span {
   display: block;
 }
 
-button:hover span {
+button:hover span, button:focus span {
   color: #ffffff;
 }
 
@@ -122,7 +123,7 @@ button img {
   width: 65px;
 }
 
-button:hover #convenient {
+button:hover #convenient, button:focus #convenient {
   object-position: 0 -45px;
   height: 35px;
   width: 65px;
@@ -134,13 +135,32 @@ button:hover #convenient {
   width: 55px;
 }
 
+button:hover #sparks-creativity, button:focus #sparks-creativity {
+  object-position: -67px -50px;
+  height: 35px;
+  width: 55px;
+}
+
 #educational {
   object-position: -122px 0px;
   height: 37px;
   width: 55px;
 }
+
+button:hover #educational, button:focus #educational {
+  object-position: -122px -45px;
+  height: 37px;
+  width: 55px;
+}
+
 #family-time {
   object-position: -183px 0px;
+  height: 35px;
+  width: 67px;
+}
+
+button:hover #family-time, button:focus #family-time {
+  object-position: -183px -45px;
   height: 35px;
   width: 67px;
 }
@@ -151,8 +171,20 @@ button:hover #convenient {
   width: 55px;
 }
 
+button:hover #fun, button:focus #fun {
+  object-position: -315px -45px;
+  height: 35px;
+  width: 55px;
+}
+
 #alternative {
   object-position: -250px 0px;
+  height: 41px;
+  width: 68px;
+}
+
+button:hover #alternative, button:focus #alternative {
+  object-position: -250px -45px;
   height: 41px;
   width: 68px;
 }
